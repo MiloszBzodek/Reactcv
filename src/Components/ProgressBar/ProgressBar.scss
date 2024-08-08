@@ -1,0 +1,33 @@
+$backGroundColor: #060606; /* Tło strony */
+$color: #e3dfef; /* Kolor tekstu */
+$progressBarBackgroundColor: #303030; /* Ciemniejsze tło dla paska postępu */
+$progressBarFillColor: #007bff; /* Kolor wypełnienia paska postępu */
+$progressBarLabelColor: #e3dfef; /* Kolor etykiety */
+
+.progress-bar-container {
+    margin: 40px; /* Dodaj odstęp między paskami */
+}
+
+.progress-bar {
+    width: 100%; /* Szerokość paska postępu */
+    background-color: $progressBarBackgroundColor; /* Tło paska */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    overflow: hidden; /* Ukrycie nadmiaru */
+}
+
+.progress-bar-fill {
+    height: 30px; /* Wysokość paska postępu */
+    background-color: $progressBarFillColor; /* Kolor wypełnienia */
+    color: $color; /* Kolor tekstu */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    line-height: 30px; /* Wysokość linii dla wyśrodkowania tekstu */
+    white-space: nowrap; /* Zapobieganie łamaniu tekstu */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+}
+
+.progress-bar-label {
+    margin-bottom: 5px; /* Odstęp między etykietą a paskiem */
+    font-size: 1.2rem; /* Rozmiar czcionki dla etykiety */
+    color: $progressBarLabelColor; /* Kolor etykiety */
+    font-weight: bold; /* Pogrubienie etykiety */
+}

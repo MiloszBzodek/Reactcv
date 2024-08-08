@@ -1,0 +1,40 @@
+$backGroundColor: #060606;
+$color: #e3dfef;
+$fontFamily: 'Arial, sans-serif';
+$textFontSize: 1.4rem;
+$headingFontSize: 2.5rem;
+$textLineHeight: 1.5;
+$padding: 20px;
+
+.body {
+    background-color: $backGroundColor;
+    color: $color;
+    font-family: $fontFamily;
+    padding: $padding;
+    font-size: $textFontSize;
+}
+
+.heading {
+    font-size: $headingFontSize;
+    text-align: center;
+    margin-bottom: 20px; /* Dodaj odstęp poniżej nagłówka */
+}
+
+.list2 {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto; /* Wyśrodkowanie listy */
+    max-width: 800px; /* Maksymalna szerokość listy */
+    display: grid; /* Ustawienie elementów listy w siatce */
+    gap: 15px; /* Odstęp między elementami */
+}
+
+.list2 li {
+    border: solid 2px white;
+    padding: 15px; /* Większy padding dla lepszej czytelności */
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1); /* Lekko przezroczyste tło dla lepszego kontrastu */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Cień dla lepszego wyróżnienia */
+    text-align: center;
+    line-height: $textLineHeight; /* Ustawienie linii tekstu */
+}

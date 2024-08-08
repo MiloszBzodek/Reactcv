@@ -1,0 +1,30 @@
+$backGroundColor: #060606;
+$color: #e3dfef;
+$fontFamily: 'Arial, sans-serif';
+$textFontSize: 1.2rem;
+$headingFontSize: 2rem;
+$textLineHeight: 1.5;
+$padding: 50px;
+
+.body {
+    background-color: $backGroundColor;
+    color: $color;
+    font-family: $fontFamily;
+    padding: $padding;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.heading {
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    font-size: $headingFontSize;
+}
+
+.text {
+    font-size: $textFontSize;
+    line-height: $textLineHeight;
+    margin: 25px;
+    text-align: justify;
+}

@@ -1,0 +1,35 @@
+$backGroundColor: #2d2f33;
+$color: #e3dfef;
+$colorHover: #a19fb0;
+
+.navigation {
+    position: fixed; /* Ustawienie pozycji na stałe */
+    top: 0; /* Przyklejenie do góry strony */
+    left: 0; /* Przyklejenie do lewej strony */
+    width: 100%; /* Pełna szerokość strony */
+    background-color: $backGroundColor;
+    color: $color;
+    padding: 10px; /* Dodaj padding w razie potrzeby */
+    z-index: 1000; /* Upewnij się, że pasek nawigacyjny jest nad innymi elementami */
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Ustawienie elementów listy w jednej linii */
+    justify-content: center; /* Wyśrodkowanie poziome */
+}
+
+.list li {
+    margin-right: 25px; /* Dodaj odstępy między elementami */
+}
+
+.list li a {
+    color: $color;
+    text-decoration: none;
+}
+
+.list li a:hover {
+    color: $colorHover;
+}

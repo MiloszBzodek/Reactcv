@@ -1,0 +1,38 @@
+$backGroundColor: #060606;
+$color: #e3dfef;
+$textFontSize: 1.2rem;
+$headingFontSize: 2rem;
+
+div .body {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.contact {
+    background-color: $backGroundColor;
+    color: $color;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    height: 300px; /* Ustaw odpowiednią wysokość obrazka */
+    width: 300px; /* Ustaw odpowiednią szerokość obrazka */
+    margin-right: 20px; /* Dodaj odstęp między obrazkiem a tekstem */
+}
+
+.contactDetails p {
+    margin: 5px 0; /* Dopasuj margines dla elementów tekstowych */
+    font-size: $textFontSize;
+    text-align: center;
+}
+    
+.heading {
+    background-color: $backGroundColor;
+    color: $color;
+    padding: 20px;
+    text-align: center;
+    font-size: $headingFontSize;
+}

@@ -1,0 +1,44 @@
+$backGroundColor: #060606;
+$color: #e3dfef;
+$fontFamily: 'Arial, sans-serif';
+$textFontSize: 1.4rem;
+$headingFontSize: 2.5rem;
+$textLineHeight: 1.5;
+$padding: 20px;
+
+.body {
+    background-color: $backGroundColor;
+    color: $color;
+    font-family: $fontFamily;
+    padding: $padding;
+    margin: 0;
+}
+
+.heading {
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    font-size: $headingFontSize;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;   
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+div .study p {
+    font-size: $textFontSize;
+    color: $color;
+    margin-left: 20px;
+}
